@@ -1,1 +1,1 @@
-# fast-typing-trainer
+# fast-typing-trainer!
