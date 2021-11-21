@@ -4,6 +4,7 @@ import styles from './index.module.css'
 import {TextField} from '../../components/TextField';
 import {SpeedInfo} from "../../components/SpeedInfo";
 import {ResetButton} from "../../components/ResetButton";
+import { Accuracy } from '../../components/Accuracy';
 
 export const Layout = ({dispatch, state}) => {
     return (
@@ -21,6 +22,7 @@ export const Layout = ({dispatch, state}) => {
                             <TextField />
                             <div className={styles.result}>
                                 <SpeedInfo />
+                                <Accuracy />
                                 <ResetButton />
                             </div>
                         </div>
